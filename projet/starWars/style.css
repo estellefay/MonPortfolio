@@ -1,0 +1,289 @@
+                        /* PARTIE 1 Selecteur et class */
+
+/* Hearder */
+header
+{
+  background-color: #4a86b0;
+  height: 25px;
+  border-bottom: solid;
+  border-width: 1px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+ .p1
+ {
+   background: #33627f;
+   border-width:1px;
+   border-color:black;
+   border-style: solid;
+   margin-left: 5px;
+   margin-right: 2px;
+ }
+
+/* body */
+ body
+ {
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ }
+
+/* Caractériqtique de l'aside */
+ aside
+ {
+   background-color: #F7F7F8;
+   border-right: solid;
+   border-width: 1px;
+   width: 200px;
+   position: fixed;
+   overflow: auto;
+   left: 0;
+   top: 0;
+   height: 100%;
+   box-shadow: 5px 0 12px -3px rgba(0, 0, 0, 0.3);
+   padding: 20px;
+
+ }
+
+ aside>div>p
+ {
+   font-size: 12px;
+ }
+
+.reseau-sociaux-logo
+{
+  width: 20px;
+  height: 20px;
+}
+
+.logo
+{
+  width: 190px;
+  height: 80px;
+}
+/* Propriéter du contenue de la page */
+body
+{
+    background-color: #e7e7ea;
+}
+.article1
+{
+  margin-left: 350px;
+  justify-content: space-around;
+  margin-right: 120px;
+  font-family: "Lora", serif;
+}
+
+h1
+{
+font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+color: #35627d;
+font-weight: lighter;
+font-size: 25px;
+}
+
+h2
+{
+font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+color: #FC0D1C;
+font-weight: lighter;
+font-size: 25px;
+}
+
+figure
+{
+  border: 1px solid #d7d7dc;
+  background-color: #f7f7f8;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+figcaption
+{
+  font-family: "Architects Daughter", "Lucida Grande", Verdana, Arial, sans-serif;
+  text-align: center;
+}
+
+p{
+  font-size: 17px;
+  font-weight: lighter;
+  letter-spacing: 0.015em;
+  word-spacing: .2em;
+  line-height: 1.45em;
+}
+
+image2
+{
+  display: table;
+  float: right;
+}
+
+.content
+{
+  border: 1px solid #d7d7dc;
+  background-color: #f7f7f8;
+  width: 220px;
+  height: 280px;
+  border-radius: 5px;
+}
+
+.paragraph
+{
+  width: 400px;
+}
+                      /* PARTIE 2   Propriété de base */
+.nodecoration
+{
+    list-style: none;
+    text-decoration:none;
+}
+
+.maj
+{
+  text-transform: uppercase;
+}
+
+.flex-base
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-base2
+{
+  display: flex;
+  flex-direction: row;
+}
+.full-height {
+  height: 100%;
+}
+
+.no-padding-margin
+{
+  margin: 0;
+  padding: 0;
+}
+
+.element-center
+{
+  display: flex;
+  align-items: center;
+}
+
+.white
+{
+  color: white;
+}
+
+.colone
+{
+  display: flex;
+  flex-direction: column;
+}
+.style-text-1
+{
+  text-transform: uppercase;
+  color: #FC0D1C;
+  font-weight: bold;
+}
+.bold
+{
+  font-weight: bold;
+}
+
+.life
+{
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+.image-centrer
+{
+  align-items:center;
+}
+
+.typo-center
+{
+  text-align: center;
+}
+
+
+                        /* PARTIE 3 Propriéter spécifique */
+
+.menu-buttons>li>a {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  text-decoration:none;
+  font-size: 10px;
+}
+
+.menu-buttons>li>a.p1:hover
+{
+  background-color: white;
+  color: black;
+  border: 0;
+}
+
+.menu-buttons>li>a.p2:hover
+{
+  border: 0;
+  text-decoration: underline;
+}
+
+
+.liste-article>li
+{
+border-bottom: 1px dashed #000000;
+padding: .15em 0;
+padding-left: 2em;
+text-indent: -2em;
+}
+
+.liste-article>li>a
+{
+  color: #33627f;
+  font-size: 13px;
+}
+.liste-article>li>a:hover
+{
+  text-decoration: underline;
+}
+
+.description>li
+{
+  font-size: 13px;
+}
+
+.content ul
+{
+  font-size: 13px;
+}
+
+.content>ul>li>a:hover
+{
+  text-decoration: underline;
+}
+
+.content>ul>li>ul>li>a:hover
+{
+  text-decoration: underline;
+}
+.content>ul>li>ul>li>ul>li>a:hover
+{
+  text-decoration: underline;
+}
+
+.color-blue>li>a
+{
+  color: #356281;
+}
+
+.color-blue>li>ul>li>a
+{
+  color: #356281;
+}
+
+.color-blue>ul>li>ul>li>ul>li>a
+{
+  color: #356281;
+}

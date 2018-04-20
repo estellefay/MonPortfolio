@@ -1,0 +1,218 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.losange {
+  /*animation-name: small;
+  animation-duration: 1s;*/
+  margin-top: -14px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -moz-transform: rotate(45deg); /* Firefox */
+  -webkit-transform: rotate(45deg); /* Safari et Chrome */
+  -o-transform: rotate(45deg); /* Opera */;
+  display: flex;
+  margin-left: 300px;
+      margin-bottom: -35px;
+      margin-right: 54px;
+  transition: all 1s;
+}
+
+
+
+
+.losange2 {
+  /*animation-name: small;
+  animation-duration: 1s;*/
+  padding-left: -14px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -moz-transform: rotate(45deg); /* Firefox */
+  -webkit-transform: rotate(45deg); /* Safari et Chrome */
+  -o-transform: rotate(45deg); /* Opera */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -7px;
+ margin-bottom: -24px;
+ transition: all 1s;
+}
+
+
+#example-losange{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.losange:hover {
+  padding-left: -14px;
+  width: 300px;
+  height: 300px;
+  background-color: rgb(218, 179, 179);
+  border: 1px solid black;
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -moz-transform: rotate(45deg); /* Firefox */
+  -webkit-transform: rotate(45deg); /* Safari et Chrome */
+  -o-transform: rotate(45deg); /* Opera */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -7px;
+ margin-bottom: -24px;
+
+}
+
+.losange2:hover {
+  /*animation-name: small;
+  animation-duration: 1s;*/
+  padding-left: -14px;
+  width: 300px;
+  height: 300px;
+  background-color:rgb(218, 179, 179);
+  border: 1px solid black;
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -moz-transform: rotate(45deg); /* Firefox */
+  -webkit-transform: rotate(45deg); /* Safari et Chrome */
+  -o-transform: rotate(45deg); /* Opera */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -7px;
+  margin-left: -50px;
+}
+
+/* CONTENUE DES LOSANGES */
+.losange2 span
+{
+  opacity:0;
+}
+
+.losange2:hover span
+{
+  opacity:1;
+  color: black;
+}
+
+.losange span
+{
+  opacity:0;
+}
+
+.losange:hover span
+{
+  opacity:1;
+  color: black;
+}
+
+.losange:hover h2
+{
+  display: none;
+}
+
+.losange2:hover h2
+{
+  display: none;
+}
+
+
+/* TEXT */
+
+span
+{
+  -ms-transform: rotate(-45deg); /* Internet Explorer */
+  -moz-transform: rotate(-45deg); /* Firefox */
+  -webkit-transform: rotate(-45deg); /* Safari et Chrome */
+  -o-transform: rotate(-45deg); /* Opera */;
+}
+
+h2
+{
+
+  -ms-transform: rotate(-45deg); /* Internet Explorer */
+  -moz-transform: rotate(-45deg); /* Firefox */
+  -webkit-transform: rotate(-45deg); /* Safari et Chrome */
+  -o-transform: rotate(-45deg); /* Opera */;
+
+}
+
+.titre-competence-1
+{
+    margin-right: -560px;
+}
+
+.titre-competence-2
+{
+  margin-left: 32px;
+  margin-top: 51px;
+}
+
+.titre-competence-3
+{
+      margin-left: 105px;
+}
+
+.text2>ul>li
+{
+  list-style-type: none;
+}
+
+
+/*IMAGE DES LOSANGE */
+.commercial
+{
+  background-image: url(../img-losange/commercial.jpg);
+  background-position-x: -268px;
+  background-position-y: -118px;
+  background-size: 600px;
+}
+
+
+.creative
+{
+  background-image: url(../img-losange/creative.jpg);
+  background-position-x: -243px;
+  background-position-y: -125px;
+}
+
+.pedagogie
+{
+  background-image: url(../img-losange/pedagogue.jpg);
+  background-position-x: -920px;
+  background-position-y: -470px;
+}
+
+.managerial
+{
+  background-image: url(../img-losange/Managérial.jpg);
+  background-position-x: -1108px;
+  background-position-y: -16px;
+  background-size: 500px;
+
+
+}
+
+.autonome
+{
+  background-image: url(../img-losange/Autonomie.jpg);
+  background-position-x: -1108px;
+  background-position-y: -16px;
+  background-size: 500px;
+}
+}
