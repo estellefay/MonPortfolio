@@ -1,0 +1,254 @@
+/* ---- FEUILLE DE STYLE LOSANGE COMPETENCES TRANSVERSAL ----- */
+
+
+/* ---- FORMES ----- */
+.losange {
+  /*animation-name: small;
+  animation-duration: 1s;*/
+  margin-top: -14px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -moz-transform: rotate(45deg); /* Firefox */
+  -webkit-transform: rotate(45deg); /* Safari et Chrome */
+  -o-transform: rotate(45deg); /* Opera */;
+  display: flex;
+  margin-left: 300px;
+  margin-bottom: -35px;
+  margin-right: 54px;
+  transition: 1s;
+}
+
+
+
+
+.losange2 {
+  /*animation-name: small;
+  animation-duration: 1s;*/
+  padding-left: -14px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  -ms-transform: rotate(45deg); /* Internet Explorer */
+  -moz-transform: rotate(45deg); /* Firefox */
+  -webkit-transform: rotate(45deg); /* Safari et Chrome */
+  -o-transform: rotate(45deg); /* Opera */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -7px;
+  margin-bottom: -24px;
+  transition: 1s;
+
+}
+
+
+#example-losange{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+  margin-right: 122px;
+  z-index: 1;
+  
+}
+
+
+/* ---- HOVER - AGRANDISSMENT  ----- */
+.losange:hover {
+  padding-left: -14px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  -ms-transform: rotate(0deg); /* Internet Explorer */
+  -moz-transform: rotate(0deg); /* Firefox */
+  -webkit-transform: rotate(0deg); /* Safari et Chrome */
+  -o-transform: rotate(0deg); /* Opera */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -7px;
+  margin-bottom: -24px;
+  transition: 1s;
+
+}
+
+.losange2:hover {
+  /*animation-name: small;
+  animation-duration: 1s;*/
+  padding-left: -14px;
+  width: 150px;
+  height: 150px;
+
+  border: 1px solid black;
+  -ms-transform: rotate(0deg); /* Internet Explorer */
+  -moz-transform: rotate(0deg); /* Firefox */
+  -webkit-transform: rotate(0deg); /* Safari et Chrome */
+  -o-transform: rotate(0deg); /* Opera */;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -7px;
+  margin-left: -50px;
+  transition: 1s;
+ 
+  
+}
+
+/* --- CONTENUE DES LOSANGES ---- */ 
+.losange2 .text2
+{
+  display: none; 
+  
+}
+
+.losange2:hover .text2
+{
+  display: block;
+  /* color: #EFF1E9; */
+  transform: translateX(-300px); 
+  
+}
+
+.losange .text3
+{
+  display: none;
+}
+
+.losange:hover .text3
+{
+  display: block;
+ /* color: #EFF1E9;*/
+ transform: translateX(300px);
+ 
+}
+
+.losange:hover .h2-tranversal
+{
+  display: none;
+
+}
+
+.losange2:hover .h2-tranversal
+{
+   display: none; 
+}
+
+
+/* ---- TEXT ---- */
+
+.text2
+{
+  -ms-transform: rotate(-45deg); /* Internet Explorer */
+  -moz-transform: rotate(-45deg); /* Firefox */
+  -webkit-transform: rotate(-45deg); /* Safari et Chrome */
+  -o-transform: rotate(-45deg); /* Opera */
+  font-size: 15px;
+  color: black;
+  width: 250px;
+  /* margin: 0; */
+  /* padding: 0; */
+  margin-right: -178px; 
+  
+}
+
+.text3
+{
+  -ms-transform: rotate(0deg); /* Internet Explorer */
+  -moz-transform: rotate(-45deg); /* Firefox */
+  -webkit-transform: rotate(0deg); /* Safari et Chrome */
+  -o-transform: rotate(-45deg); /* Opera */
+  font-size: 15px;
+  color: black;
+  width: 250px;
+  /* margin: 0; */
+  /* padding: 0; */
+  margin-left: -242px;
+  
+
+}
+
+.h2-tranversal
+{
+
+  -ms-transform: rotate(-45deg); /* Internet Explorer */
+  -moz-transform: rotate(-45deg); /* Firefox */
+  -webkit-transform: rotate(-45deg); /* Safari et Chrome */
+  -o-transform: rotate(-45deg); /* Opera */
+  color: white;
+  /* text-decoration: #ff5436   underline; */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+ 
+}
+
+.titre-competence-1
+{
+  
+}
+
+.titre-competence-2
+{
+  margin-left: 22px;
+  padding-top: 43px;
+}
+
+.titre-competence-3
+{
+  margin-left: 3px;
+}
+
+.titre-competence-4
+{
+  margin-left: 10px;
+}  
+.text2>ul>li
+{
+  list-style-type: none;
+}
+
+
+/* ---- IMAGE DES LOSANGE ---- */
+.commercial
+{
+  background-image: url(../img-losange/commercial-1.jpeg);
+  background-position-x: -268px;
+  background-position-y: -118px;
+  background-size: 600px;
+}
+
+
+.creative
+{
+  background-image: url(../img-losange/creative-1.jpeg);
+  background-position-x: -243px;
+  background-position-y: -125px;
+}
+
+.pedagogie
+{
+  background-image: url(../img-losange/pedagogue-1.jpeg);
+  background-position-x: -920px;
+  background-position-y: -470px;
+}
+
+.managerial
+{
+  background-image: url(../img-losange/managerial-1.jpeg);
+  background-position-x: -1108px;
+  background-position-y: -16px;
+  background-size: 500px;
+}
+
+.autonome
+{
+  background-image: url(../img-losange/Autonomie-1.jpeg);
+  background-position-x: -1108px;
+  background-position-y: -16px;
+  background-size: 500px;
+}
