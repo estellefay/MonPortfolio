@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" lang="fr">
+    <title>TP</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  </head>
+  <body>
+    <div class="loading-container hidden">
+      <img src="loading.gif" alt="">
+    </div>
+    <header id="buttonList">
+      <h1>Simulateur de Requête</h1>
+      <ul>
+        <li><input type="button" value="Personnages aléatoire" id="a"></li>
+        <li><input type="button" value="Jeu aléatoire" id="b"></li>
+      </ul>      
+    </header>
+    <p class="explication">Cette application est un simulateur de requêtes, Chaque bouton renvoit aléatoirement des données via des requêtes AJAX sur une authentification API Key</p>
+    <main id="resultList"></main>
+        
+      <!-- Here will be shown the results -->
+    </main>
+    <script type="text/javascript" src="./vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

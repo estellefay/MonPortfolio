@@ -1,0 +1,226 @@
+/* Comments */
+/* You don't have a life for look my code */
+* {
+  font-family: 'Questrial', sans-serif;
+}
+
+/* Selecteur for balises */
+header, footer{
+  height: 60px;
+}
+
+header{
+  background-color: #B75148;
+  border: 1px solid #893f3b;
+}
+
+body {
+  background-image: url(./assets/imgs/cardPatern.png);
+}
+
+footer {
+  background-color: #843A34;
+}
+
+/*h1 {
+  font-family: 'Indie Flower', cursive;
+}
+*/
+main {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+
+img {
+  border-radius: 8px;
+}
+
+h1 {
+  color: black;
+}
+/* Selector for classes */
+
+.position-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.image-container {
+  width: 500px;
+}
+
+.full-height {
+  height: 100%;
+}
+.full-width {
+  width: 90%;
+}
+
+
+.flex-center {
+  align-items: center;
+
+}
+
+
+.flex-base {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.no-padding-margin{
+  margin: 0;
+  padding: 0;
+}
+
+.list-no-style {
+  list-style: none;
+}
+
+.p-base {
+  width: 650px;
+  text-align: justify;
+}
+
+.base-card {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 14px 24px 2px rgba(0,0,0,0.21);
+  background-image: url(./assets/imgs/cardPatern2.png);
+}
+
+
+.link-no-style {
+  text-decoration: none
+}
+/* Complex selector */
+.image-container>img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*
+.menu-buttons>li>a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.menu-buttons>li>a:hover {
+  background-color: #C38C87;
+  color: white;
+}
+ */
+
+
+.menu-buttons>li>a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.menu-buttons>li>a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-buttons>li>a:hover {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  background-image: url(./assets/imgs/cardPatern2.png);
+  border: 0;
+}
+/*
+.menu-buttons>li>a:hover {
+  color: black;
+  background-color: #C38C87;
+}
+
+*/
+ul.flex-center {
+  width: 300px;
+}
+
+
+#game-container
+{
+  display: flex;
+  flex-direction: row;
+}
+
+#game-container>div
+{
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+#game-container>div:hover
+{
+  cursor: pointer;
+}
+
+.green-color
+{
+  background-color: green !important;
+}
+
+.red-color
+{
+  background-color: red !important;
+}
+
+.bouton
+{
+  width: 150px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bouton:hover
+{
+  background-color: #009494;
+  color: white;
+  cursor: pointer;
+}
+
+.reset
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#compteur
+{
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.cross {
+  cursor: crosshair!important;
+}

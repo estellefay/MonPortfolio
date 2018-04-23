@@ -1,0 +1,541 @@
+/* Comments */
+/* TO DO !!!!!!
+
+
+-- Mise en place du petite texte de présentation TO DO
+-- Mise en place des liens du site --OK--
+-- reflexhir au différent projets --OK--
+-- Faire le Footer TO DO 
+-- Trouver les fonts -- OK -- 
+-- Corriger fautes d'orthographe TO DO
+-- Rendre le site responsive AFTER
+-- 
+
+
+
+
+/* You don't have a life for look my code */
+
+/* ---- Balise de base ----- */
+
+header
+{
+  background-image: url(../Image/swirl.png);
+  height: 10vh;
+  width: 90vw;
+  z-index: 100;
+}
+
+main
+{
+
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: lighter;
+  background-image: url(../Image/swirl.png);
+  margin-bottom: 0;
+}
+h1
+{
+  font-size: 20px;
+  position: center;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+h3
+{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+p 
+{
+  text-align: justify;
+  text-align-last: center;
+  padding: 13px;
+  font-size: 15px;
+}
+
+
+/* ---- Mes fond d'écrans -------- */
+
+
+
+
+.parallax0 { 
+ 
+  background: url(../Image/jumelle5.jpg);
+  height: 700px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 { 
+
+ 
+  background: url(../Image/developpeur-1.png); 
+  
+
+  height: 1300px; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 { 
+  
+  background: url(../Image/code-1.jpeg); 
+  
+  
+  height: 1100px; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax3
+{
+  background: url(../Image/dev-2.jpg); 
+  height: 150px; 
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+/* ---- Selecteur de base -------- */
+
+
+.full-width
+{
+  width: 90%;
+}
+
+.no-puce
+{
+    list-style: none; /* ---- Enlever puce -------- */
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+.no-padding-margin
+{
+    margin: 0;
+    padding: 0;
+}
+.full-height
+{
+  height: 100%;
+}
+
+.position-fixed
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.font-white
+{
+  color: #F5F2DC;
+}
+
+.link-no-style
+{
+  text-decoration: none;
+}
+
+.font-grey
+{
+  color: #454445;
+}
+/* ---- Activation de flex-------- */
+.flex-base
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-colone
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-row-alternate{
+  flex-direction: row-reverse;
+}
+
+/* ---- Caractéristique de mon Menu et mon header-------- */
+.menu-boutton
+{
+  color: #00585E;
+  text-transform: uppercase; 
+  list-style: none;
+  font-family: 'Ubuntu', sans-serif;
+  height: 30px;;
+
+}
+
+.menu-bouttons>li>a
+{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-boutton>li
+{
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.menu-boutton>li>a:hover
+{
+  text-decoration: underline;
+}
+
+
+
+ul.flex-center
+{
+  width: 400px;
+}
+
+.size-icone
+{
+  width: 3vw;
+  height: 4vh;
+}
+
+
+/* ----Caractéristique de ma banière -------- */
+
+
+
+.h2-phrase-accroche
+{
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: honeydew;
+  padding-top: 15%;
+  text-transform: uppercase; 
+  font-size: 33px;
+  
+}
+
+.presentation
+{
+
+  width: 77%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-left: 10%;
+  padding-top: 5vh;
+  font-size: 20px;
+  color:  honeydew;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+
+.span-phrase-accroche-2
+{
+  display:inline-block;
+  line-height:1.3em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  background-color: rgba(255, 84, 54, 0.8);
+  
+
+
+}
+.span-phrase-accroche
+{
+  display:inline-block;
+  line-height:1.3em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  background-color: rgba(0, 88, 93, 0.5);
+  color: #F2F3EB;
+  font-family: 'Oswald', sans-serif;
+
+}
+.lien-formation
+{
+  color: #F2F3EB; 
+}
+
+
+
+/* ---- PARTIE REALISATION----- */
+
+.projet-informatique, .projet-audiovisuel
+{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projet-informatique>p{
+  margin: 5px;
+}
+
+.size-img-attente
+{
+  width: 230px;
+  height: 150px;
+}
+
+
+
+.Audiovisuel, .Informatique
+{
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.github-logo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-logo>img{
+  height: 121px;
+}
+
+
+
+/* ---- FOOTER ----- */
+
+.cv
+{
+  width: 70%;
+  height: auto;
+}
+
+.cv-text
+{
+  font-size: 18px;
+  margin-bottom: 0;
+  color: rgb(0, 88, 93);
+  font-weight: bold;
+  text-transform: uppercase;
+ 
+}
+
+
+footer>ul
+{
+  font-family: 'Tajawal', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+/*---- MEDIA QUERIES ---*/
+
+/*---- REDUCTION LOSANGE ---*/
+
+
+@media screen and (max-width: 1000px)
+{
+  .losange {
+
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+  .losange2 {
+
+    margin: 0!important;
+    padding: 0!important;
+  }
+  .losange:hover {
+
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+  .losange2:hover {
+    margin: 0!important;
+    padding: 0!important;
+  }
+  #example-losange{
+    margin-left: 44px!important;
+    padding: 0!important;
+    align-items:center!important;
+  }
+
+  .losange2:hover .text2
+  {
+  /* color: #EFF1E9; */
+  transform: translateX(300px)!important;
+  margin-left: -402px;
+}
+ 
+}
+
+@media screen and (max-width: 650px)
+{
+  .losange {
+    width: 75px!important;
+    height: 75px!important;
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+  .losange2 {
+    width: 75px!important;
+    height: 75px!important;
+    margin: 0!important;
+    padding: 0!important;
+  }
+  .losange:hover {
+    width: 75px!important;
+    height: 75px!important;
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+  .losange2:hover {
+    width: 75px!important;
+    height: 75px!important;
+    margin: 0!important;
+    padding: 0!important;
+  }
+  #example-losange{
+
+    margin-left: 44px!important;
+    padding: 0!important;
+    align-items: flex-start!important;
+    margin-bottom: 30px!important;
+    margin-top: 38px!important;
+    align-items: flex-start!important;
+  }
+
+  .titre-competence-2
+  {
+    margin-left: 2px!important;
+    padding-top: 12px!important;
+  }
+
+  .titre-competence-3
+  {
+    margin: 0!important;
+    padding: 0!important;
+  }
+
+  .titre-competence-4
+  {
+    margin: 0!important;
+    padding: 0!important;
+  }  
+
+  .h2-tranversal
+  {
+    font-size: 13px!important;
+  }
+
+  .losange2:hover .text2
+  {
+  /* color: #EFF1E9; */
+  transform: translateX(300px)!important;
+  margin-left: -402px;
+}
+ 
+}
+
+
+
+@media screen and (max-width: 720px)
+{
+  .menu-boutton
+  {
+    font-size: 13px;
+    height: 20px;
+  }
+  .menu-boutton>li
+  {
+    padding: 10px;
+  }
+  footer 
+  {
+    font-size: 12px;
+  }
+  footer>li
+  {
+    padding: 0;
+  }
+  #example-losange
+  {
+    
+  }
+}
+ 
+@media screen and (max-width: 800px)
+{
+  .flex-nom-progress>.remove-media-queries
+  {
+    display: none;
+  }
+  .projet-informatique, .projet-audiovisuel
+  {
+    flex-wrap: wrap;
+  }
+  #CONTACT>ul>.remove-media-queries
+  {
+    display: none;
+  }
+
+  .menu-boutton>li 
+  {
+    padding: 3px;
+  }
+
+  .h2-phrase-accroche
+  {
+    padding-top: 20vh;
+  }
+  .parallax2 
+  {
+    height: 1450px;
+  }
+}
+
+
+

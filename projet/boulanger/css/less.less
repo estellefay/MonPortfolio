@@ -1,0 +1,345 @@
+/* COMMENT */
+
+/* MES FLEX Et autre proprieter*/
+.flex-base
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-center
+{
+    display: flex;
+    justify-content: center;
+}
+.full-width
+{
+    width: 100%;
+}
+
+.full-height
+{
+    height: 100%;
+}
+.no-margin-no-padding
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.here{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+/* MON BANDEAU 1*/
+.bandeau1
+{
+    background-color: #1696AF;
+    height: 42px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+
+    
+    .icone-bandeau1
+    {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        
+    }
+    a 
+    {
+        list-style-type: none; 
+        text-decoration: none;
+        color: white;
+        align-items: center;
+    }
+    .background-blue
+    {
+        background-color: #2cb2cb;  
+            
+    }
+    img
+    {
+        display: flex;
+        align-items: center;
+    }
+    p
+    {
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+}
+
+
+
+/*MONBANDEAU 2*/
+.bandeau2
+{
+    align-items: center;
+    .icone-bandeau2 {
+        width: 40px;
+        height: 40px;
+        margin-top: 30px;
+    }
+    .conect
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    p 
+    {
+        font-size: 10px;
+        margin-left: 7px;
+
+    }
+    .logo 
+    {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        margin-top: 19px;
+    
+    }
+
+
+}
+
+
+/* MENUS NAVIGATION*/
+nav
+{
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    li {
+        list-style-type: none;
+        text-align: center;
+    }
+}
+
+
+/* Bandeau de recherce */
+
+.search {
+  
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.searchTerm {
+  float: left;
+  width: 300px;
+  border: 3px solid lightgrey;
+  height: 20px;
+  border-radius: 2px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchButton { 
+  width: 35px;
+  height: 28px;
+  border: 1px solid #fc5c20;
+  background: #fc5c20;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+/* MENU NAVIOGATION */
+
+nav
+{
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    .espace
+    {
+        display: flex;
+        align-items: center;
+    }
+    .printemps
+    {
+        background-color: #c4dc66;
+        color: black;
+    }
+    .printemps>a:hover{
+        color: black !important;
+    }
+    li {
+        padding: 10px 0;
+    }
+    ul>li {
+        border-left: solid lightgrey 1px;
+    }
+
+
+}
+
+nav>ul>li:hover:not(.printemps){
+    background-color: #fc5c20;
+    height: 100%;
+}
+
+nav>ul>li>a:hover:not(.printemps) {
+    color: white;
+
+}
+
+
+
+/* BANIERE */
+
+
+.contenair-image{
+display: flex;
+align-items: center;
+justify-content: center;
+
+text-align: center;
+margin: O
+}
+
+/* body */
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*TITRE SLIDER */
+.titre-slider
+{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+    font-weight: bold;
+
+    ul 
+    {
+        background-color: #efefef;
+    }
+    li {
+        padding: 10px 0;
+        list-style: none;
+        text-transform: uppercase;
+        padding-right: 8px;
+        padding-left: 8px;
+
+    }
+    ul>li:not(.not) {
+        border-left: solid #828282 1px;
+    }
+
+}
+
+
+
+
+
+/* VENTE D ARTICLE */
+.vente
+{
+    div
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   h2
+   {
+        font-size: 16px;
+        font-weight: bold;
+        color: #828282;
+   }
+   p 
+   {
+       font-size: 12px;
+   }
+}
+
+
+
+@media screen and (max-width: 888px)
+{
+    .menu-boutton>ul>li>a
+    {
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 800px)
+{
+    nav
+    {
+        display: none;
+    }
+    .vanish
+    {
+        display: none;
+    }
+
+    .titre-slider
+    {
+        display: none;
+    }
+    .menu-boutton
+    {
+        display: none;
+    }
+
+  
+}
+
+@media screen and (max-width: 720px)
+{
+    .bandeau1 .test p a
+    {
+        display: none;
+    }
+    .here
+    {
+        height: 35px;
+        width: 35px;
+        margin-left: 5px;
+    }
+    .search 
+    {
+        width: 20px;
+        margin-left: 80px;
+    }
+
+    .logo-boulanger
+    {
+        width: 180px;
+        height: 25px;;
+    }
+    .vente
+    {
+        flex-wrap: wrap;
+    }
+    .logo-search
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}    

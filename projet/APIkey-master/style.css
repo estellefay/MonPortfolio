@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+
+h1
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;   
+  color: #FFFFFF;
+}
+
+h3 {
+  margin: 0;
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;   
+}
+
+p {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+#buttonList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#buttonList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+  align-items: center;
+  background-color: #333640;
+  border-bottom: 1px solid #043927;
+}
+#resultList {
+  width: 100vw;
+  height: 80vh;
+  /* Change the color */
+  background-color: #F8F8F0;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameInfo {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.description-Summary {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.underline
+{
+  text-decoration: underline;
+}
+
+.loading-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hidden
+{
+  display: none!important;
+}
+
+.title-Name
+{
+  font-size: 18px;
+}
+
+#a
+{
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+
+
+#a:hover {
+  background-color: white;
+  color: #008CBA;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+#b
+{
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+
+
+#b:hover {
+  background-color: white;
+  color: #008CBA;
+  border: 2px solid;
+  cursor: pointer;
+}
+
+
+.explication
+{
+  text-align: center;
+  padding-top: 20px;
+  background-color: #F8F8F0;
+  margin: 0;
+}
