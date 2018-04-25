@@ -1,0 +1,182 @@
+.noneDecoration
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+/* --- decoration --- */
+.beerlogo {
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: #F2C53D;
+}
+
+h1 {
+  font-family: 'Tajawal', sans-serif;
+  color: #733D0E;
+  font-size: 35px;
+  font-weight: bold;
+  display: flex;
+  padding-top: 20px;
+}
+
+#buttonList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 70vw ;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  background-color: #F2C53D;
+  border-bottom: 1px solid #733D0E;
+}
+#resultList {
+  width: 100vw;
+  height: 80vh;
+  /* Change the color */
+  background-color: #F8F8F0;
+  overflow: scroll;
+}
+
+/* -- MES BUTTONS --*/
+
+.button {
+  background-color: white; 
+  border: none;
+  color: #F2C53D;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #BF700F; /* Green */
+  color: #F2C53D;
+}
+/* ----- STYLE DE LA LIST---- */
+.listStyle {
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 52px 52px 52px 52px;
+  -moz-border-radius: 52px 52px 52px 52px;
+  -webkit-border-radius: 52px 52px 52px 52px;
+  border: 4px double #e7a61a;
+  -webkit-box-shadow: -2px 1px 76px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 1px 76px -12px rgba(0,0,0,0.75);
+  box-shadow: -2px 1px 76px -12px rgba(0,0,0,0.75);
+  width: 300px;
+  padding: 0;
+  padding-bottom: 20px!important;
+  padding-top: 20px!important;
+  background-color: rgba(114, 61, 21, 0.8);
+  color: white;
+	
+}
+
+.tauxAlcool
+{
+  font-size: 15px;
+  font-weight: bold;
+  color: #F2C53D;
+  list-style: none;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+/* ----- CONTENAIR OF BEER ----- */
+.beerInfo {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-family: 'Tajawal', sans-serif;
+  border-radius: 52px 52px 52px 52px;
+-moz-border-radius: 52px 52px 52px 52px;
+-webkit-border-radius: 52px 52px 52px 52px;
+border: 4px double #e7a61a;
+  -webkit-box-shadow: -2px 1px 76px -12px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 1px 76px -12px rgba(0,0,0,0.75);
+  box-shadow: -2px 1px 76px -12px rgba(0,0,0,0.75);
+  padding: 40px;
+  background-color:rgba(191, 113, 15, 0.5);
+  color: white;
+
+}
+
+.beerInfo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+.beerName{
+  font-size: 30px;
+}
+.beerTagline {
+  font-size: 15px;
+  font-style: italic;
+}
+.beerDescription {
+  font-size: 12px;
+}
+
+.beerImg {
+  height: 56vh;
+}
+
+/* --- CHARGEMENT  ---- */
+.loading-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 200px;
+}
+
+.hidden
+{
+  display: none!important;
+}
+
