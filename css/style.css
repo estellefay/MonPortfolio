@@ -80,7 +80,7 @@ p
   background: url(../Image/developpeur-1.png); 
   
 
-  height: 1200px; 
+  height: 1250px; 
 
 
   background-attachment: fixed;
@@ -108,12 +108,6 @@ p
 {
   background: url(../Image/dev-2.jpg); 
   height: 150px; 
-
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position-y: 464px;
 }
 /* ---- Selecteur de base -------- */
